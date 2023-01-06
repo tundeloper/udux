@@ -1,0 +1,16 @@
+.app {
+    background-image: url(../../../public/assets/Group\ 74\ \(1\).svg);
+    background-position: center;
+    background-size:contain;
+    height: 100vh;
+}
+
+.content {
+    width: 20rem;
+    height: 20rem;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}

@@ -1,0 +1,106 @@
+.app {
+    color: #fff;
+    font-family: myFont;
+    font-size: .8rem;
+}
+
+font-face {
+    font-family: myFont;
+    src: url(../../../public/assets/MADE\ Outer\ Sans\ Medium\ PERSONAL\ USE.otf);
+}
+
+.logo {
+    margin-left: 2.5rem;
+}
+
+.homeContent {
+    gap: 1.5rem;
+    height: 83.5vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+}
+
+.link {
+    width: 3rem;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+    flex-direction: column-reverse;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.main {
+    background-image: url(./Group\ 76.png);
+    background-position: center;
+    background-size:cover; 
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translate(-50%);
+    padding: .3rem;
+    font-family: myFont;
+    font-size: 1rem;
+    background-color: #ADF7B6;
+    border: none;
+    cursor: pointer;
+}
+
+.powed {
+    display: none;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: .8rem;
+}
+
+.media {
+    display: none;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: none;
+    padding: 1.5rem 0;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #222222;
+}
+
+@media only screen and (max-width: 600px){
+    .homeContent {
+        height: 65vh;
+    }
+
+    .powed {
+        display: block;
+    }
+
+     header {
+        display: none;
+    }
+    .svg {
+        margin-bottom: -3rem;
+    }
+
+    .side {
+        display: none;
+    }
+
+    .media {
+        display: flex;
+    }
+
+    .footer {
+        display: flex;
+    }
+}

@@ -1,0 +1,79 @@
+.app {
+  /* background-image: url(../../../public/assets/Group\ 74\ \(1\).svg); */
+  background-position: center;
+  background-size:contain;
+  height: 100vh;
+}
+
+header {
+  /* height: 4rem; */
+  /* background-color: red; */
+  margin-bottom: 1rem;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../../../public/assets/MADE\ Outer\ Sans\ Medium\ PERSONAL\ USE.otf);
+}
+
+.auth {
+  font-family: myFont;
+  background-color: #100f0f;
+  max-width: 25rem;
+  height: 65vh;
+  margin: auto;
+  padding: 2rem 3rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%); */
+  /* display: flex; */
+}
+
+.acct {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ADF7B6;
+}
+
+.uduxSvg {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.create {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.btn {
+  font-family: myFont;
+  padding: .5rem;
+  background-color: #ADF7B6;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.signUp {
+  font-size: .8rem;
+}
+
+.signUp a {
+  color: #ADF7B6;
+}
+
+.bottom {
+  text-align: center;
+  color: #7C7C7C;
+  font-size: .6rem;
+}

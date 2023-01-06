@@ -1,0 +1,32 @@
+.content {
+    display: inline-block;
+}
+
+.side {
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.damini {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem 2rem;
+}
+
+.damini p { 
+    max-width: 500px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    header {
+        display: none;
+    }
+
+    .side {
+        display: none;
+    }
+}

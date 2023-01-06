@@ -1,0 +1,17 @@
+* {
+  color: #fff;
+}
+body {
+  margin: 0;
+  /* color: #fff; */
+  background-color: rgb(16, 17, 17);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(../public/assets/damini-gif-bg.aa0d2bd7fc6319b11e2d.gif);
+  background-position: center;
+  background-size:cover;
+}

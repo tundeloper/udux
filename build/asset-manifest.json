@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c0ab59b.css",
+    "main.js": "/static/js/main.0966fa3d.js",
+    "static/media/damini-gif-bg.gif": "/static/media/damini-gif-bg.aa0d2bd7fc6319b11e2d.aa0d2bd7fc6319b11e2d.gif",
+    "static/media/Group 76.png": "/static/media/Group 76.1b7857a24c24d308db88.png",
+    "static/media/damini-gif.gif": "/static/media/damini-gif.597ebe4daa8144aa2688.597ebe4daa8144aa2688.gif",
+    "static/media/Group 74 (1).svg": "/static/media/Group 74 (1).bc1182eb0ce7abed8b4b.svg",
+    "static/media/MADE Outer Sans Medium PERSONAL USE.otf": "/static/media/MADE Outer Sans Medium PERSONAL USE.3228eaea867fe0546966.otf",
+    "index.html": "/index.html",
+    "main.5c0ab59b.css.map": "/static/css/main.5c0ab59b.css.map",
+    "main.0966fa3d.js.map": "/static/js/main.0966fa3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c0ab59b.css",
+    "static/js/main.0966fa3d.js"
+  ]
+}

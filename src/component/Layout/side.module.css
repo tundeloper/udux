@@ -1,0 +1,14 @@
+.side {
+    width: 3rem;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.faqs {
+    transform: rotate(90deg);
+    margin-bottom: 5rem;
+}

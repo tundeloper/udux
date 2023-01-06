@@ -1,0 +1,43 @@
+font-face {
+    font-family: myFont;
+    src: url(../../../public/assets/MADE\ Outer\ Sans\ Medium\ PERSONAL\ USE.otf);
+}
+
+.accordion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 6rem;
+    margin-right: 5rem;
+}
+
+.title {
+    font-family: myFont;
+}
+
+.accordio {
+    margin-bottom: 6rem;
+}
+
+.accordion_title {
+    cursor: pointer;
+    border: .1px solid #ccc7c7;
+    padding:0 10%;
+}
+
+.accordion_title:hover{
+    background-color: #627c66;
+}
+
+.content {
+    padding: 1rem 10%;
+    border: .1px solid #ccc7c7;
+}
+
+@media only screen and (max-width: 600px){
+    .accordion {
+        margin-left: 3px;
+        margin-right: 3px;
+        font-size: 1rem;
+    }
+}

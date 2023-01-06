@@ -1,0 +1,23 @@
+.auth_control {
+    margin-bottom: 1.2rem;
+}
+  
+.auth_control label {
+    margin-bottom: 0.3rem;
+    font-size: .9rem;
+    display: block;
+}
+  
+.auth_control input {
+    padding: 1rem;
+    font-family: myFont;
+    background-color: #7C7C7C;
+    color: #ADF7B6;
+    font-size: .8rem;
+    width: calc(100% - 2.4rem);
+    /* height: 2.2rem; */
+}
+
+.auth_control input:focus {
+    outline: none;
+}

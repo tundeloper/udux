@@ -1,0 +1,43 @@
+font-face {
+    font-family: myFont;
+    src: url(../../../public/assets/MADE\ Outer\ Sans\ Medium\ PERSONAL\ USE.otf);
+}
+
+header {
+    font-family: myFont;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.svg {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: -2.5rem;
+}
+
+.auth {
+    margin-right: 2.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.img {
+    width: 5rem;
+    margin: -1.5rem 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-stretch: expanded;
+}
