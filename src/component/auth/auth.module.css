@@ -5,10 +5,14 @@
   height: 100vh;
 }
 
-header {
+.header {
   /* height: 4rem; */
   /* background-color: red; */
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 @font-face {

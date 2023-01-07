@@ -12,6 +12,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-image: url(../public/assets/damini-gif-bg.aa0d2bd7fc6319b11e2d.gif);
-  background-position: center;
-  background-size:cover;
+  /* background-position: center; */
+  /* background-size:cover; */
 }

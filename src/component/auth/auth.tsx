@@ -2,10 +2,13 @@ import classes from './auth.module.css'
 import Form from './form'
 import AuthSVG from './authSvg'
 import { Link } from 'react-router-dom'
+import Logo from '../../SVG/logo'
 const Auth = () => {
     return <div className={classes.app}>
-        <header>
-            <h1>jblwdhbk</h1>
+        <header className={classes.header}>
+            {/* <img src={logo} alt="" /> */}
+            <Logo />
+            01.01.2013
         </header>
         <div className={classes.auth}>
            <div className={classes.uduxSvg}>
